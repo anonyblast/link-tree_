@@ -1,0 +1,25 @@
+@media (max-width: 500px) {
+    header img {
+        display: none;
+    }
+    header h1 {
+        font-size: medium;
+    }
+    header span {
+        font-size: small;
+    }
+    a {
+        padding: 10px;
+    }
+    li {
+        font-size: small;
+        width: max-content;
+        height: max-content;
+    }
+    footer {
+        display: none;
+    }
+    section {
+        padding: 20px;
+    }
+}
