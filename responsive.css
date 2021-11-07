@@ -3,9 +3,9 @@
         display: none;
     }
     header h1 {
-        font-size: medium;
+        font-size: large;
     }
-    header span {
+    header .welcomeMessage {
         font-size: small;
     }
     a {
@@ -15,11 +15,16 @@
         font-size: small;
         width: max-content;
         height: max-content;
+        border-radius: 10px;
     }
     footer {
         display: none;
     }
     section {
         padding: 20px;
+    }
+    .fab,
+    .fas {
+        margin-right: 5px;
     }
 }
