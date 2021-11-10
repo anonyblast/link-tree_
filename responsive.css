@@ -8,20 +8,32 @@
     header .welcomeMessage {
         font-size: small;
     }
-    a {
+    .welcome {
+        margin-bottom: 0px;
+    }
+    section {
         padding: 10px;
+        animation-duration: 2s;
+        animation-name: slidein;
+    }
+    @keyframes slidein {
+        from {
+            margin-left: 100%;
+            width: 100%
+        }
+        to {
+            margin-left: 0%;
+            width: 100%;
+        }
     }
     li {
         font-size: small;
         width: max-content;
         height: max-content;
-        border-radius: 10px;
+        border-radius: 10px 10px 0px 10px;
     }
     footer {
         display: none;
-    }
-    section {
-        padding: 20px;
     }
     .fab,
     .fas {
